@@ -40,7 +40,11 @@ a {
 }
 
 .button {
-
+    width: 50%;
+    color:white;
+    background-color: #554AF0;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -48,7 +52,11 @@ a {
 /* Login*/
 
 .input-login {
-
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    border-radius: 5px;
 
 }
 
