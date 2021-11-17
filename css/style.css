@@ -7,7 +7,7 @@
 /* Потом селекторы по тегам */
 
 html {
-
+    font-family: Arial;
 }
 
 main {
@@ -26,10 +26,12 @@ a {
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
 .col {
-
+    flex: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 
