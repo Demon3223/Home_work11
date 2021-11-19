@@ -39,7 +39,11 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
-
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    border-radius: 5px;
 }
 
 .button {
@@ -67,19 +71,31 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    width: 100%;
+    background-color: #E1F5EA;
+    padding: 10px 10px;
+    margin: 10px 10px
 }
 
 .genre-second {
-
+    width: 80%;
+    background-color: #CBEDFF;
+    padding: 10px 10px;
+    margin: 10px 10px
 }
 
 .genre-third {
-
+    width: 40%;
+    background-color: #FDF5E6;
+    padding: 10px 10px;
+    margin: 10px 10px
 }
 
 .genre-fourth {
-
+    width: 30%;
+    background-color: #EBDCF9;
+    padding: 10px 10px;
+    margin: 10px 10px
 }
 
 .tag {
