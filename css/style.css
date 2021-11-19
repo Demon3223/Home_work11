@@ -51,7 +51,7 @@ a {
     color:white;
     background-color: #554AF0;
     border-radius: 4px;
-    padding: 10px;
+    padding: 10px 1px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -111,11 +111,18 @@ a {
 /* Страничка подписки  */
 
 .box-green {
-
+    width: 100%;
+    background-color: #E1F5EA;
+    padding: 10px 10px;
+    margin-bottom: 10px
 }
 
 .box-purple {
-
+    width: 100%;
+    background-color: #EBDCF9;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 30px
 }
 
 .text-large {
